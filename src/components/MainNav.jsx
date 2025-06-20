@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 function MainNav() {
   return (
-    <div className='flex justify-between bg-black text-white px-8 py-2'>
+    <div className='flex justify-between bg-black text-white px-8 py-3'>
       <div className='flex gap-4'>
           <Link className='hover:bg-white hover:text-black' to = "/">LOGO</Link>
           <Link to = "/">Home</Link>
